@@ -1,0 +1,265 @@
+/* navbar area */
+.nav-bar-parent {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+a:hover {
+    color: rgb(204, 157, 27);
+}
+
+/* Top area */
+.top-parent {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.top-side {
+    width: 45%;
+}
+
+.name-title {
+    margin: 0 0 -4% 0;
+}
+
+.top-side p {
+    margin: 2% 0 0 0;
+}
+
+/* shapes parent, children, and keyframes */
+.top-side-shapes-parent {
+    width: 55%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.stationary-line {
+    width: 29%;
+    height: 1%;
+    background-color: rgb(204, 157, 27);
+    border-radius: 50%;
+    border: 2px solid rgb(204, 157, 27);
+    margin: 0%;
+    position: absolute;
+}
+
+.shape-1 {
+    width: 30%;
+    height: 1%;
+    background-color: rgb(204, 157, 27);
+    border-radius: 50%;
+    border: 2px solid rgb(204, 157, 27);
+    margin: 0%;
+    position: absolute;
+    animation: shape-1-rotate 22s linear infinite;
+}
+
+.shape-2 {
+    width: 27%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-2-rotate 17s linear infinite;
+}
+.shape-3 {
+    width: 13%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-3-rotate 18s linear infinite;
+}
+.shape-4 {
+    width: 24%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-4-rotate 15s linear infinite;
+}
+.shape-5 {
+    width: 34%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-5-rotate 14s linear infinite;
+}
+.shape-6 {
+    width: 16%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-6-rotate 30s linear infinite;
+}
+.shape-7 {
+    width: 20%;
+    height: 1%;
+    background-color: rgb(204, 157, 27);
+    border-radius: 50%;
+    border: 2px solid rgb(204, 157, 27);
+    margin: 0%;
+    position: absolute;
+    animation: shape-7-rotate 26s linear infinite;
+}
+.shape-8 {
+    width: 20%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-8-rotate 11s linear infinite;
+}
+.shape-9 {
+    width: 23%;
+    height: 1%;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 0%;
+    position: absolute;
+    animation: shape-9-rotate 16s linear infinite;
+}
+
+@keyframes shape-1-rotate {
+    100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+}
+
+@keyframes shape-2-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-3-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-4-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-5-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-6-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-7-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-8-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+@keyframes shape-9-rotate {
+    100% {
+        -webkit-transform: rotate(360deg);
+    transform: rotate(-360deg);
+    }
+} 
+
+
+/* Tiles wrapper's parent */
+.tiles-parent {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 955px) {
+    .top-parent {
+        flex-direction: column-reverse;
+    }
+    .top-side {
+        width: 100%;
+    }
+    .top-side-shapes-parent {
+        width: 100%;
+        height: 50vh;
+    }
+    .shape-1, .shape-2, .shape-3, .shape-4,.shape-5,.shape-6,.shape-7,.shape-8, .shape-9 {
+        width: 25%;
+        border: 1px solid white;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .shape-1, .shape-2, .shape-3, .shape-4,.shape-5,.shape-6,.shape-7,.shape-8, .shape-9 {
+        width: 35%;
+        
+    }
+  }
+
+
+  @media screen and (max-width: 540px) {
+   h1 {
+       font-size: 5rem;
+   }
+   h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+.shape-1, .shape-2, .shape-3, .shape-4,.shape-5,.shape-6,.shape-7,.shape-8, .shape-9 {
+    width: 45%;
+    
+}
+  }
+
+  @media screen and (max-width: 300px) {
+    h1 {
+        font-size: 4rem;
+    }
+    .shape-1, .shape-2, .shape-3, .shape-4,.shape-5,.shape-6,.shape-7,.shape-8, .shape-9 {
+        width: 55%;
+        
+    }
+   }
