@@ -11,14 +11,14 @@ function Home (props) {
         <nav>
             <ul className="nav-bar-parent">  
                 <a href="./About"><li>About</li></a>
-                <a href="./Home"><h2>A</h2></a>
+                <a href="./Home"><h2><span className="home-letter">A</span></h2></a>
                 <a href="./Contact"><li>Contact</li></a>
             </ul>
         </nav>
         <section className="top-parent">
             <div className="top-side">
-                <h1 className="name-title">Austin Hansen</h1>
-                <h2>React Developer</h2>
+                <h1 className="name-title">Aus<span className="color-letter">t</span>in Hansen</h1>
+                <h2>React Dev<span className="color-letter">e</span>loper</h2>
                 <p>Guarenteed to make any <br></br>frontend team <br></br>cooler.</p>
             </div>
             <div className="top-side-shapes-parent">
