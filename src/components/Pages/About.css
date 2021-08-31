@@ -1,0 +1,113 @@
+/* top area below navbar */
+.top-parent {
+  display: flex;
+}
+
+.left-section-parent {
+  width: 35%;
+}
+
+.profile-pic {
+  background-image: URL(profile_pic_austin.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 0 30% 30% 0;
+  margin: 7% 0 0 0;
+  filter: contrast(110%);
+  transition: 0.2s;
+}
+
+.profile-pic:hover {
+  background-image: URL(profile_pic_austin.JPG);
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* right */
+.right-section-parent {
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  width: 50%;
+}
+
+.color-letter {
+  color: rgb(204, 157, 27);
+}
+
+/* middle area */
+.middle-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.middle-info {
+  /* margin: 3% 0 10% 0;
+  display: flex;
+  flex-flow: column;
+  width: 50%;
+  align-items: center; */
+
+  margin: 3% 0 3% 0;
+  padding: 3%;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.061);
+}
+
+p {
+  margin: 0.5% 0 0 0;
+}
+
+.resume-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-info {
+  margin: 1% 0 3% 0;
+  padding: 3%;
+  width: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.job-degree {
+  margin: 1% 0 1% 0;
+  padding: 2% 3%;
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+.job-1 {
+  margin: 1% 0 1% 0;
+  padding: 2% 3%;
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.061);
+}
+
+.job-2 {
+  margin: 1% 0 1% 0;
+  padding: 2% 3%;
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+  border-radius: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.061);
+}

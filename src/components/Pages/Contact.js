@@ -1,10 +1,15 @@
-import React from 'react';
-import Tile from '../UI/Tile';
+import React from "react";
+// import Tile from "../UI/Tile";
+import HireMe from "./HireMe/HireMe";
+import NavBar from "./NavBar/NavBar";
 
-function Contact (props) {
-    return (<Tile>
-
-        </Tile>);
+function Contact() {
+  return (
+    <div>
+      <NavBar />
+      <HireMe />
+    </div>
+  );
 }
 
 export default Contact;

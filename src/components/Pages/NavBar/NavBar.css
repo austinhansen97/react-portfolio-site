@@ -1,0 +1,25 @@
+/* navbar area */
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #000f1d;
+  z-index: 2;
+}
+
+.nav-bar-parent {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+a:hover {
+  color: rgb(204, 157, 27);
+}
+
+.home-letter {
+  color: rgb(255, 255, 255);
+}
+.home-letter:hover {
+  color: rgb(204, 157, 27);
+}
