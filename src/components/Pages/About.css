@@ -1,9 +1,14 @@
 /* top area below navbar */
 .top-parent {
   display: flex;
+  height: 90vh;
 }
 
+/* left (profile pic) */
 .left-section-parent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   width: 35%;
 }
 
@@ -26,12 +31,12 @@
   transition: 0.3s;
 }
 
-/* right */
+/* right (dialog)*/
 .right-section-parent {
   word-wrap: break-word;
   display: flex;
-  justify-content: center;
   flex-flow: column;
+  align-items: flex-start;
   width: 50%;
 }
 
@@ -41,50 +46,72 @@
 
 /* middle area */
 .middle-parent {
+  height: 90vh;
   display: flex;
-  justify-content: center;
+  flex-flow: row-reverse;
+  margin: 0;
 }
 
-.middle-info {
-  /* margin: 3% 0 10% 0;
-  display: flex;
-  flex-flow: column;
-  width: 50%;
-  align-items: center; */
-
-  margin: 3% 0 3% 0;
-  padding: 3%;
-  width: 90%;
+.middle-header {
+  padding: 0% 3%;
+  width: 40%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0.061);
+  border-radius: 40px 0 0 40px;
+  border: 6px solid rgba(255, 255, 255, 0.061);
 }
 
-p {
-  margin: 0.5% 0 0 0;
+.middle-paragraph {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 0;
 }
 
+.middle-paragraph section {
+  width: 60%;
+}
+
+.middle-paragraph p {
+  margin: 3% 0 0 0;
+}
+
+/* resume area */
 .resume-parent {
   display: flex;
   justify-content: center;
+  margin: 4% 0 4% 0;
 }
 
-.resume-info {
-  margin: 1% 0 3% 0;
-  padding: 3%;
-  width: 90%;
+.resume-parent p {
+  font-family: monospace;
+}
+
+.resume-header {
+  padding: 0%;
+  width: 40%;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 0px 40px 40px 00px;
+  border: 6px solid rgba(255, 255, 255, 0.061);
+}
+
+.resume-items-list-parent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
 }
 
 .job-degree {
-  margin: 1% 0 1% 0;
+  margin: 0;
   padding: 2% 3%;
   width: 70%;
   display: flex;
@@ -93,21 +120,21 @@ p {
 }
 
 .job-1 {
-  margin: 1% 0 1% 0;
+  margin: 0.5% 0 0 0;
   padding: 2% 3%;
   width: 70%;
   display: flex;
   flex-flow: column;
-  border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0.061);
+  /* border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.061); */
 }
 
 .job-2 {
-  margin: 1% 0 1% 0;
+  margin: 0.5% 0 0 0;
   padding: 2% 3%;
   width: 70%;
   display: flex;
   flex-flow: column;
-  border-radius: 40px;
-  border: 3px solid rgba(255, 255, 255, 0.061);
+  /* border-radius: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.061); */
 }

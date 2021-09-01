@@ -43,6 +43,9 @@ function Home(props) {
         <Tile>
           <h2>Estate Tax Calculator</h2>
         </Tile>
+        <Tile>
+          <h2>U.S. States and Cities</h2>
+        </Tile>
       </section>
       <HireMe />
     </div>
