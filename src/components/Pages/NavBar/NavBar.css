@@ -8,9 +8,17 @@
 
 .nav-bar-parent {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
   align-items: center;
+}
+
+/* left links */
+.left-links-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
 a:hover {
@@ -22,4 +30,30 @@ a:hover {
 }
 .home-letter:hover {
   color: rgb(204, 157, 27);
+}
+
+/* right github link
+.github-link-parent {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid white;
+} */
+
+.github-parent {
+  width: 50%;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.github-parent img {
+  width: 6%;
+  border: white 2px solid;
+  border-radius: 60px;
+  margin: 0 3% 0 0;
+}
+
+a img:hover {
+  border: rgb(204, 157, 27) solid 2px;
 }

@@ -32,7 +32,7 @@ function About(props) {
               One day in high school, my teacher pulled me and another student
               aside.
             </p>
-            <p>"You two are the best programmers in our class"</p>
+            <p>"You two are the best programmers in our class".</p>
             <p>
               I was kinda confused. Of all my peers, I wasn't the one who had
               been writing code the longest.
