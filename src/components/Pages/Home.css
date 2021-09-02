@@ -183,13 +183,48 @@
   }
 }
 
-/* Tiles wrapper's parent */
+/* All tiles wrapper's parent */
 .tiles-parent {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-items: center;
   text-align: center;
+}
+
+/* Each tile */
+.individual-tile-parent-2 {
+  display: flex;
+  flex-flow: row-reverse;
+  align-items: center;
+  width: 100%;
+  padding: 4%;
+}
+
+.individual-tile-parent-1 {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  width: 100%;
+  padding: 4%;
+}
+
+.right-project-tile {
+  width: 50%;
+}
+.left-project-tile {
+  width: 50%;
+}
+
+/* Star wars */
+.planet-home-page {
+  width: 50%;
+  transform: translateY(0px);
+  transition: 0.2s;
+}
+.planet-home-page:hover {
+  transform: translateY(-6px) scale(1.03);
+  transition: 0.4s;
 }
 
 /* RESPONSIVE DESIGN */

@@ -2,7 +2,7 @@
 .nav {
   position: sticky;
   top: 0;
-  background-color: #000f1d;
+  background-color: #000f1db2;
   z-index: 2;
 }
 
@@ -19,27 +19,21 @@
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
-a:hover {
+/* a:hover {
   color: rgb(204, 157, 27);
-}
+} */
 
 .home-letter {
   color: rgb(255, 255, 255);
 }
-.home-letter:hover {
+/* .home-letter:hover {
   color: rgb(204, 157, 27);
-}
-
-/* right github link
-.github-link-parent {
-  width: 50%;
-  display: flex;
-  align-items: flex-start;
-  border: 1px solid white;
 } */
+
+/* right github link */
 
 .github-parent {
   width: 50%;
@@ -55,6 +49,6 @@ a:hover {
   margin: 0 3% 0 0;
 }
 
-a img:hover {
+/* a img:hover {
   border: rgb(204, 157, 27) solid 2px;
-}
+} */
