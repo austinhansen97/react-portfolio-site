@@ -5,6 +5,9 @@ import Home from "../Pages/Home";
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 
+// projects linked to Home page
+import Planets from "../Pages/Projects/Planets";
+
 const Main = () => {
   return (
     <Switch>
@@ -12,6 +15,7 @@ const Main = () => {
       <Route exact path="/" component={Home}></Route>
       <Route exact path="/About" component={About}></Route>
       <Route exact path="/Contact" component={Contact}></Route>
+      <Route exact path="/Planets" component={Planets}></Route>
     </Switch>
   );
 };

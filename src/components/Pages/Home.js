@@ -4,9 +4,9 @@ import "./Home.css";
 import HireMe from "./HireMe/HireMe";
 import NavBar from "./NavBar/NavBar";
 
-function Home(props) {
-  // why is this having issues???
+import { NavLink } from "react-router-dom";
 
+function Home(props) {
   return (
     <div>
       <NavBar />
@@ -38,8 +38,11 @@ function Home(props) {
       </section>
       <section className="tiles-parent">
         <Tile>
-          <h2>Star Wars Planets</h2>
+          <NavLink to="./Planets">
+            <h2>Star Wars Planets</h2>
+          </NavLink>
         </Tile>
+
         <Tile>
           <h2>Estate Tax Calculator</h2>
         </Tile>

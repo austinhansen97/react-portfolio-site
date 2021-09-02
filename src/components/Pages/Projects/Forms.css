@@ -1,0 +1,172 @@
+/* General settings & background*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+/* Syncopate */
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
+
+.background,
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%; /*sets 1rem to 10px for font*/
+  margin: 0;
+  background-image: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+}
+
+.planets-label {
+  font-family: "Syncopate", sans-serif;
+  color: rgb(255, 217, 0);
+}
+
+/* Card wrapper */
+.card-wrapper {
+  padding: 1% 0% 3% 0%;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5% 7%;
+  background-color: rgba(16, 16, 16, 0.65);
+  border: 1px white solid;
+}
+
+/* specific items of PLanet */
+.title {
+  font-family: "Syncopate", sans-serif;
+  font-size: xxx-large;
+  text-align: center;
+  margin: 1% 0 0 0;
+  padding: 0;
+  color: rgb(16, 16, 16);
+  text-shadow: -1px 1px 2px rgb(255, 217, 0), 1px 1px 2px rgb(255, 217, 0),
+    0px -1.5px 2px rgb(255, 217, 0);
+  animation: reappear 1.3s;
+}
+
+@keyframes reappear {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+select {
+  width: 50%;
+  padding: 1.5%;
+  border-radius: 19px;
+  margin: 0;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  border: none;
+}
+
+label {
+  font-size: medium;
+  margin: 3% 0;
+  padding: 0;
+}
+
+.header-3 {
+  font-family: "Syncopate", sans-serif;
+  color: rgb(255, 217, 0);
+  font-size: xx-large;
+  margin: 1% 0 0 0;
+}
+
+/* parent */
+.parent-dropdowns {
+  width: 100%;
+  color: rgb(255, 230, 0);
+  font-weight: 600;
+  font-size: xx-large;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* left child*/
+.left-panel {
+  margin: 1%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin: 2% 0;
+}
+
+.label-select {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0%;
+}
+
+/* right child*/
+.right-panel {
+  font-size: small;
+  width: 80%;
+  margin: 0%;
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+.planet-image {
+  width: 40%;
+  animation: planet 49s linear infinite;
+}
+
+@keyframes planet {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.facts-div {
+  font-family: monospace;
+  color: rgb(255, 248, 188);
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: left;
+  width: 40%;
+}
+
+/* -------- */
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1500px) {
+  select {
+    width: 90%;
+    padding: 2%;
+  }
+  .label-select {
+    margin: 1% 0;
+  }
+  .facts-p {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  /* parent */
+  .parent-dropdowns {
+    flex-flow: wrap;
+  }
+
+  select {
+    width: 80%;
+    padding: 1.5%;
+  }
+
+  .title {
+    font-size: xx-large;
+  }
+  .facts-p {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .facts-p {
+    width: 70%;
+  }
+}

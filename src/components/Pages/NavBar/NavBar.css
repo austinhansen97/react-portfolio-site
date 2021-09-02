@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
+  font-size: 1.3rem;
 }
 
 a:hover {

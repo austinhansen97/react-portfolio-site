@@ -20,7 +20,12 @@ function NavBar() {
             </NavLink>
           </section>
 
-          <a className="github-parent" href="https://github.com/austinhansen97">
+          <a
+            className="github-parent"
+            href="https://github.com/austinhansen97"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src="https://www.pngrepo.com/png/331408/512/github.png"
               alt="github logo"
