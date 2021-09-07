@@ -72,15 +72,15 @@ function About(props) {
             <h3>Frontend Developer</h3>
             <p>2020-2021</p>
             <p>
-              Built online courses for my alma mater using JavaScript, CSS, HTML
+              Built online courses for university using JavaScript, CSS, HTML
             </p>
           </section>
           <section className="job-2">
             <h3>Special Projects Intern</h3>
             <p>2019-2020</p>
             <p>
-              Compiled data and created presentations for executives in EdTech
-              company
+              Compiled data and created presentations for executives in an
+              EdTech company
             </p>
           </section>
           <section className="job-1">

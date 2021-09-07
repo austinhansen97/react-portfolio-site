@@ -48,7 +48,7 @@ function Forms(props) {
     },
     {
       planetImage:
-        "https://lh3.googleusercontent.com/proxy/JH8fT4czjFU4A8ALOORIaLyQ2pIroDm8X0wgHk1AONTZz8Cd7LlH9PfMgu8t9Ghc69oRbjviDhvQTbYlVZtVRplan2mq3lQ8nQoULURUzMscgk_yq-BUguijY5c",
+        "https://www.nicepng.com/png/full/374-3747261_kamino-australia-in-the-global-economy.png",
     },
   ];
 

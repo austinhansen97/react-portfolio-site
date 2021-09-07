@@ -22,6 +22,11 @@
   font-size: 1.6rem;
 }
 
+.left-links-parent a:hover,
+.left-links-parent h2 span:hover {
+  color: rgb(204, 157, 27);
+}
+
 /* a:hover {
   color: rgb(204, 157, 27);
 } */
@@ -43,10 +48,14 @@
 }
 
 .github-parent img {
-  width: 6%;
-  border: white 2px solid;
+  width: 7%;
+  border: 2px transparent solid;
   border-radius: 60px;
   margin: 0 3% 0 0;
+}
+
+.github-parent img:hover {
+  border: 2px white solid;
 }
 
 /* a img:hover {

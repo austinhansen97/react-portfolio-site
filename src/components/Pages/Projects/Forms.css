@@ -112,6 +112,7 @@ label {
 
 .planet-image {
   width: 40%;
+  border-radius: 50%;
   animation: planet 49s linear infinite;
 }
 

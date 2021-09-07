@@ -209,20 +209,20 @@
   padding: 4%;
 }
 
-.right-project-tile {
-  width: 50%;
-}
+.right-project-tile,
 .left-project-tile {
   width: 50%;
 }
 
-/* Star wars */
-.planet-home-page {
+/* All circle icons for projects */
+.project-icon {
   width: 50%;
   transform: translateY(0px);
   transition: 0.2s;
+  border-radius: 50%;
+  filter: saturate(23);
 }
-.planet-home-page:hover {
+.project-icon:hover {
   transform: translateY(-6px) scale(1.03);
   transition: 0.4s;
 }

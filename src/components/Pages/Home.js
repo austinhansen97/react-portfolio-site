@@ -42,13 +42,13 @@ function Home(props) {
             <section className="right-project-tile">
               <h2>Star Wars Planets</h2>
               <p>
-                Haven't watched Star Wars in a while? This tool uses an API to
-                tell you about planets from the Star Wars galaxy.
+                Haven't watched Star Wars in a while? This React tool uses an
+                API to tell you about planets from the Star Wars galaxy.
               </p>
             </section>
             <section className="left-project-tile">
               <img
-                className="planet-home-page"
+                className="project-icon"
                 src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f4c4b7d-a2ad-49a4-ad0d-2327cab52046/de6c8ft-163f01c9-61c9-4790-a531-6e509ada0b53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNGM0YjdkLWEyYWQtNDlhNC1hZDBkLTIzMjdjYWI1MjA0NlwvZGU2YzhmdC0xNjNmMDFjOS02MWM5LTQ3OTAtYTUzMS02ZTUwOWFkYTBiNTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jsbKumuLzOaLZRTXFQEUlyaZOcd8MsyRsFHo8hlnf_U"
                 alt="Planet from star wars"
               ></img>
@@ -61,34 +61,35 @@ function Home(props) {
             <section className="right-project-tile">
               <h2>Estate Planning Calculator</h2>
               <p>
-                This financial planning calculator lays out a simplified visual
-                of how much a wealthy client will pay in taxes before passing
-                their assets to their loved ones.
+                This React financial planning calculator lays out a simplified
+                visual of how much a wealthy client will pay in taxes before
+                passing their assets to their loved ones.
               </p>
             </section>
             <section className="left-project-tile">
               <img
-                className="planet-home-page"
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f4c4b7d-a2ad-49a4-ad0d-2327cab52046/de6c8ft-163f01c9-61c9-4790-a531-6e509ada0b53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNGM0YjdkLWEyYWQtNDlhNC1hZDBkLTIzMjdjYWI1MjA0NlwvZGU2YzhmdC0xNjNmMDFjOS02MWM5LTQ3OTAtYTUzMS02ZTUwOWFkYTBiNTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jsbKumuLzOaLZRTXFQEUlyaZOcd8MsyRsFHo8hlnf_U"
-                alt="Planet from star wars"
+                className="project-icon"
+                src="https://minimalistneon.com/wp-content/uploads/2021/03/MINIMALISTNEON_NeonSignage_DollarSign_Thumbnail_2000x2000.jpg"
+                alt="Dollar sign"
               ></img>
             </section>
           </NavLink>
         </Tile>
+
         <Tile>
           <NavLink to="./Planets" className="individual-tile-parent-2">
             <section className="right-project-tile">
               <h2>U.S. States and Cities</h2>
               <p>
-                This tool pulls data from an API about what cities are in the
-                U.S. state you selected.
+                This React tool pulls data from an API about what cities are in
+                the U.S. state you selected.
               </p>
             </section>
             <section className="left-project-tile">
               <img
-                className="planet-home-page"
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f4c4b7d-a2ad-49a4-ad0d-2327cab52046/de6c8ft-163f01c9-61c9-4790-a531-6e509ada0b53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNGM0YjdkLWEyYWQtNDlhNC1hZDBkLTIzMjdjYWI1MjA0NlwvZGU2YzhmdC0xNjNmMDFjOS02MWM5LTQ3OTAtYTUzMS02ZTUwOWFkYTBiNTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jsbKumuLzOaLZRTXFQEUlyaZOcd8MsyRsFHo8hlnf_U"
-                alt="Planet from star wars"
+                className="project-icon"
+                src="https://ak1.ostkcdn.com/images/products/is/images/direct/3549361c34c23742b685efb779824b1013d5ab0c/Poster-Print-entitled-Idaho-topographic-map.jpg"
+                alt="United States"
               ></img>
             </section>
           </NavLink>
