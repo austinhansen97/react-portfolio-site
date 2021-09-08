@@ -4,31 +4,32 @@
 /* Syncopate */
 @import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap");
 
-.background,
-html {
+.background-SW {
   font-family: "Open Sans", sans-serif;
   font-size: 62.5%; /*sets 1rem to 10px for font*/
   margin: 0;
   background-image: url(https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  height: 110vh;
 }
 
-.planets-label {
+.planets-label-SW {
   font-family: "Syncopate", sans-serif;
   color: rgb(255, 217, 0);
+  font-size: 2rem;
 }
 
 /* Card wrapper */
-.card-wrapper {
+.card-wrapper-SW {
   padding: 1% 0% 3% 0%;
   border-radius: 10px;
   text-align: center;
   margin: 5% 7%;
-  background-color: rgba(16, 16, 16, 0.65);
+  background-color: rgba(16, 16, 16, 0.719);
   border: 1px white solid;
 }
 
 /* specific items of PLanet */
-.title {
+.title-SW {
   font-family: "Syncopate", sans-serif;
   font-size: xxx-large;
   text-align: center;
@@ -49,23 +50,23 @@ html {
   }
 }
 
-select {
+.select-SW {
   width: 50%;
   padding: 1.5%;
   border-radius: 19px;
-  margin: 0;
+  margin: 2% 0;
   font-weight: bold;
   background-color: rgb(255, 255, 255);
   border: none;
 }
 
-label {
+.label-SW {
   font-size: medium;
   margin: 3% 0;
   padding: 0;
 }
 
-.header-3 {
+.header-3-SW {
   font-family: "Syncopate", sans-serif;
   color: rgb(255, 217, 0);
   font-size: xx-large;
@@ -73,7 +74,7 @@ label {
 }
 
 /* parent */
-.parent-dropdowns {
+.parent-dropdowns-SW {
   width: 100%;
   color: rgb(255, 230, 0);
   font-weight: 600;
@@ -85,7 +86,7 @@ label {
 }
 
 /* left child*/
-.left-panel {
+.left-panel-SW {
   margin: 1%;
   width: 100%;
   display: flex;
@@ -93,7 +94,7 @@ label {
   margin: 2% 0;
 }
 
-.label-select {
+.label-select-SW {
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -101,7 +102,7 @@ label {
 }
 
 /* right child*/
-.right-panel {
+.right-panel-SW {
   font-size: small;
   width: 80%;
   margin: 0%;
@@ -139,11 +140,11 @@ label {
 /* -------- */
 /* RESPONSIVE DESIGN */
 @media screen and (max-width: 1500px) {
-  select {
+  .select-SW {
     width: 90%;
     padding: 2%;
   }
-  .label-select {
+  .label-select-SW {
     margin: 1% 0;
   }
   .facts-p {
@@ -153,16 +154,16 @@ label {
 
 @media screen and (max-width: 730px) {
   /* parent */
-  .parent-dropdowns {
+  .parent-dropdowns-SW {
     flex-flow: wrap;
   }
 
-  select {
+  .select-SW {
     width: 80%;
     padding: 1.5%;
   }
 
-  .title {
+  .title-SW {
     font-size: xx-large;
   }
   .facts-p {

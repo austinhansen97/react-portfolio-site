@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@200&display=swap");
+
+/* FILE FOR TOP (LEFT TITLE AND RIGHT FORM) */
+/* top of site container */
+
+.inputArea {
+  display: flex;
+  margin: 0;
+  padding: 0 0 3% 0;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+/* Title */
+.left-title {
+  flex: 1.5;
+  text-align: center;
+}
+
+/* .left-title h2 {
+  margin: -2% 0 0 0;
+} */
+
+.p-for-estate {
+  margin: 1% 15%;
+  font-family: "Hahmlet", serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgb(10, 42, 63);
+}
+
+.h1ForEstate {
+  font-family: "Poppins", sans-serif;
+  color: rgb(10, 42, 63);
+  font-size: 5rem;
+}
+
+/* ---------------- */
+/* input fields and buttons (parent)*/
+.right-input-info-box {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  margin: 3% 3% 0 0;
+  box-shadow: 3px 3px 9px black;
+  background-color: rgb(221, 211, 176);
+}
+
+/* label and field groupings (parent to task field and description field */
+.parentField {
+  text-align: center;
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  width: 70%;
+}
+
+/* Task field and description field */
+.client-name-field,
+.estate-value-field {
+  font-size: 1.8rem;
+  border-radius: 5px;
+  border: solid rgb(10, 42, 63) 1px;
+  padding: 2%;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  background-color: white;
+  color: rgb(10, 42, 63);
+}
+
+.estate-value-field::placeholder {
+  color: rgba(0, 0, 0, 0.452);
+  font-family: "Hahmlet", serif;
+  font-weight: 900;
+}
+
+/* form labels (client's name and estate value) */
+.form-labels {
+  color: rgb(10, 42, 63);
+  margin: 0;
+}
+
+.buttonParent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  padding: 2% 0%;
+  border-radius: 8px;
+  border: none;
+  width: 30%;
+  margin: 0.5%;
+  background: rgb(10, 42, 63);
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  background: rgb(39, 83, 126);
+}
+
+/* --------------- */
+
+@media (max-width: 800px) {
+  .inputArea {
+    flex-flow: column;
+  }
+  .left {
+    text-align: center;
+  }
+  .button {
+    width: 50%;
+  }
+  .inputArea {
+    flex-flow: row;
+  }
+  .right-input-info-box {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .inputArea {
+    flex-flow: column;
+  }
+  .right {
+    margin: 3% 0;
+    width: 95%;
+  }
+  .right-input-info-box {
+    width: 85%;
+  }
+}

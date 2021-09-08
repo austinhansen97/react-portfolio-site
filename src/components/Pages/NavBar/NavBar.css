@@ -48,7 +48,7 @@
 }
 
 .github-parent img {
-  width: 7%;
+  width: 40px;
   border: 2px transparent solid;
   border-radius: 60px;
   margin: 0 3% 0 0;
@@ -61,3 +61,12 @@
 /* a img:hover {
   border: rgb(204, 157, 27) solid 2px;
 } */
+
+@media screen and (max-width: 650px) {
+  .left-links-parent {
+    width: 70%;
+  }
+  .github-parent {
+    width: 30%;
+  }
+}

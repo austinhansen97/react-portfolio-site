@@ -5,7 +5,7 @@ function HireMe(props) {
   return (
     <div className="hire-me-parent">
       <h2>Wanna Hire Me?</h2>
-      <p className="paragraph-text">I'm the frontend dev you're looking for.</p>
+      <p className="paragraph-text">I'm the developer you're looking for.</p>
       <h4>Let's chat!</h4>
       <form
         className="form-parent"

@@ -1,6 +1,5 @@
 /* top area below navbar */
 .top-parent {
-  display: flex;
   height: 90vh;
 }
 
@@ -36,7 +35,7 @@
   word-wrap: break-word;
   display: flex;
   flex-flow: column;
-  align-items: flex-start;
+  align-items: center;
   width: 50%;
   padding: 2.5% 0 2.5% 2.5%;
   border-radius: 40px;
@@ -140,4 +139,105 @@
   flex-flow: column;
   /* border-radius: 40px;
   border: 3px solid rgba(255, 255, 255, 0.061); */
+}
+
+/* ---------------------------------- */
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 1100px) {
+  /* Top */
+  .top-parent {
+    display: flex;
+    height: auto;
+    margin-bottom: 4%;
+    width: 100%;
+    flex-flow: column;
+  }
+
+  .left-section-parent {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 30%;
+  }
+
+  .profile-pic {
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  .left-section-parent {
+    margin-bottom: 4%;
+  }
+
+  /* Middle(my story) */
+  .middle-parent {
+    flex-flow: row-reverse;
+    height: auto;
+  }
+
+  /* bottom (resume) */
+  .resume-parent {
+    flex-flow: row;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .left-section-parent {
+    width: 50%;
+  }
+  .right-section-parent {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .top-parent,
+  .middle-parent,
+  .resume-parent {
+    margin-bottom: 9%;
+  }
+
+  .left-section-parent {
+    width: 65%;
+  }
+  .right-section-parent {
+    width: 80%;
+  }
+
+  /* Middle(my story) */
+  .middle-parent {
+    flex-flow: column;
+  }
+
+  .middle-header,
+  .middle-paragraph,
+  .resume-header,
+  .resume-items-list-parent {
+    width: 100%;
+  }
+
+  /* bottom (resume) */
+  .resume-parent {
+    flex-flow: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /* top */
+  .left-section-parent {
+    width: 85%;
+  }
+  .right-section-parent {
+    width: 90%;
+  }
+
+  /* content in middle and bottom */
+  .job-1,
+  .job-2,
+  .job-degree,
+  .middle-paragraph section {
+    width: 87%;
+    margin: 1% 0;
+  }
 }

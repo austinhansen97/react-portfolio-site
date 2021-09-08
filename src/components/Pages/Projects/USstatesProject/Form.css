@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+.all-US-state-site {
+  background: linear-gradient(to right, rgb(178, 214, 255), rgb(132, 151, 255));
+  height: 110vh;
+}
+
+.US-title {
+  font-size: xxx-large;
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.US-select {
+  width: 50%;
+  padding: 1.5%;
+  border-radius: 11px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.US-labels {
+  font-size: medium;
+  margin: 1% 0;
+  padding: 0;
+}
+
+/* parent */
+.US-parent-dropdowns {
+  width: 100%;
+  font-weight: 600;
+  font-size: xx-large;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* top child*/
+.US-left-panel {
+  margin: 1%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  margin: 2% 0;
+}
+
+.US-label-select {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+/* bottom child*/
+.US-right-panel {
+  font-size: small;
+  width: 80%;
+  margin: 0%;
+}
+
+.US-h3 {
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  margin: 0;
+}
+.US-p {
+  color: rgb(255, 255, 255);
+  font-size: large;
+  word-break: keep-all;
+  margin: 0.6% 4%;
+  font-size: 1.5rem;
+}
+
+/* -------- */
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 800px) {
+  .US-select {
+    width: 90%;
+    padding: 2%;
+  }
+  .US-label-select {
+    margin: 1% 0;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  /* parent */
+  .US-parent-dropdowns {
+    flex-flow: wrap;
+  }
+
+  .US-select {
+    width: 80%;
+    padding: 1.5%;
+  }
+
+  .US-title {
+    font-size: xx-large;
+  }
+}

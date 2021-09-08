@@ -19,7 +19,7 @@ function Home(props) {
             React Dev<span className="color-letter">e</span>loper
           </h2>
           <p>
-            Guarenteed to make any <br></br>frontend team <br></br>cooler.
+            Guarenteed to make<br></br>any dev team <br></br>cooler.
           </p>
         </div>
         <div className="top-side-shapes-parent">
@@ -57,7 +57,7 @@ function Home(props) {
         </Tile>
 
         <Tile>
-          <NavLink to="./Planets" className="individual-tile-parent-1">
+          <NavLink to="./AppEstate" className="individual-tile-parent-1">
             <section className="right-project-tile">
               <h2>Estate Planning Calculator</h2>
               <p>
@@ -77,7 +77,7 @@ function Home(props) {
         </Tile>
 
         <Tile>
-          <NavLink to="./Planets" className="individual-tile-parent-2">
+          <NavLink to="./StatesCities" className="individual-tile-parent-2">
             <section className="right-project-tile">
               <h2>U.S. States and Cities</h2>
               <p>

@@ -2,7 +2,7 @@ import React from "react";
 // import Card from "../UI/Card";
 import "./Forms.css";
 import { useState } from "react";
-import NavBar from "../NavBar/NavBar";
+import NavBar from "../../NavBar/NavBar";
 
 function Forms(props) {
   const [selectedPlanet, setSelectedPlanet] = useState("");
@@ -81,15 +81,16 @@ function Forms(props) {
   console.log(tranformedImages[0]);
 
   return (
-    <section className="background">
+    <section className="background-SW">
       <NavBar />
-      <section className="card-wrapper">
-        <h1 className="title">STAR WARS PLANETS</h1>
-        <form className="parent-dropdowns">
-          <section className="left-panel">
-            <div className="label-select">
-              <label className="planets-label">CHOOSE A PLANET</label>
+      <section className="card-wrapper-SW">
+        <h1 className="title-SW">STAR WARS PLANETS</h1>
+        <form className="parent-dropdowns-SW">
+          <section className="left-panel-SW">
+            <div className="label-select-SW">
+              <label className="planets-label-SW">CHOOSE A PLANET</label>
               <select
+                className="select-SW"
                 onChange={(event) => {
                   setSelectedPlanet(event.target.value);
                   setChosenFact("");
@@ -101,9 +102,9 @@ function Forms(props) {
             </div>
           </section>
 
-          <section className="right-panel">
+          <section className="right-panel-SW">
             {image}
-            <h3 class="header-3">{selectedPlanet}</h3>
+            <h3 class="header-3-SW">{selectedPlanet}</h3>
             <div className="facts-div">{props.planetDetailsArray}</div>
           </section>
         </form>

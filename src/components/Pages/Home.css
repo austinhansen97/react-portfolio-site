@@ -10,6 +10,11 @@
 
 .top-side {
   width: 45%;
+  height: 87vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .name-title {
@@ -27,11 +32,11 @@
 /* shapes parent, children, and keyframes */
 .top-side-shapes-parent {
   width: 50%;
-  height: 87vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 40px;
+  height: 87vh;
   background-color: rgba(255, 255, 255, 0.061);
 }
 
@@ -190,6 +195,7 @@
   align-items: center;
   justify-items: center;
   text-align: center;
+  margin: 0;
 }
 
 /* Each tile */
@@ -220,13 +226,14 @@
   transform: translateY(0px);
   transition: 0.2s;
   border-radius: 50%;
-  filter: saturate(23);
+  filter: saturate(2);
 }
 .project-icon:hover {
   transform: translateY(-6px) scale(1.03);
   transition: 0.4s;
 }
 
+/* ------------------------------------------------ */
 /* RESPONSIVE DESIGN */
 
 @media screen and (max-width: 955px) {
@@ -238,12 +245,14 @@
   }
   .top-side-shapes-parent {
     width: 80%;
-    height: 50vh;
+    height: 100vh;
   }
   .shape-1,
   .shape-2,
   .shape-3,
-  .shape-4,
+  .shape-4 {
+    width: 15%;
+  }
   .shape-5,
   .shape-6,
   .shape-7,
@@ -255,6 +264,25 @@
 }
 
 @media screen and (max-width: 650px) {
+  .top-side {
+    height: 50vh;
+  }
+
+  .shape-1,
+  .shape-2,
+  .shape-3,
+  .shape-4,
+  .shape-5 {
+    width: 25%;
+    border: none;
+  }
+  .shape-6,
+  .shape-7,
+  .shape-8,
+  .shape-9 {
+    width: 35%;
+  }
+
   .shape-1,
   .shape-2,
   .shape-3,
@@ -264,7 +292,8 @@
   .shape-7,
   .shape-8,
   .shape-9 {
-    width: 35%;
+    border: none;
+    height: 0.5%;
   }
 }
 
@@ -286,12 +315,26 @@
   .shape-2,
   .shape-3,
   .shape-4,
-  .shape-5,
+  .shape-5 {
+    width: 35%;
+  }
   .shape-6,
   .shape-7,
   .shape-8,
   .shape-9 {
     width: 45%;
+  }
+
+  .individual-tile-parent-1,
+  .individual-tile-parent-2 {
+    flex-flow: column;
+  }
+  .project-icon {
+    margin: 4% 0 2% 0;
+  }
+  .right-project-tile,
+  .left-project-tile {
+    width: 80%;
   }
 }
 
@@ -303,7 +346,9 @@
   .shape-2,
   .shape-3,
   .shape-4,
-  .shape-5,
+  .shape-5 {
+    width: 45%;
+  }
   .shape-6,
   .shape-7,
   .shape-8,

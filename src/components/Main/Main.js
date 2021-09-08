@@ -6,7 +6,9 @@ import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 
 // projects linked to Home page
-import Planets from "../Pages/Projects/Planets";
+import Planets from "../Pages/Projects/StarWarsProject/Planets";
+import AppEstate from "../Pages/Projects/EstateTaxProject/AppEstate";
+import StatesCities from "../Pages/Projects/USstatesProject/StatesCities";
 
 const Main = () => {
   return (
@@ -16,6 +18,8 @@ const Main = () => {
       <Route exact path="/About" component={About}></Route>
       <Route exact path="/Contact" component={Contact}></Route>
       <Route exact path="/Planets" component={Planets}></Route>
+      <Route exact path="/AppEstate" component={AppEstate}></Route>
+      <Route exact path="/StatesCities" component={StatesCities}></Route>
     </Switch>
   );
 };

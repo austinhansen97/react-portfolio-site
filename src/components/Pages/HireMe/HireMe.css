@@ -103,4 +103,7 @@ button:hover {
     width: 25%;
     padding: 3% 0;
   }
+  .paragraph-text {
+    width: 80%;
+  }
 }
