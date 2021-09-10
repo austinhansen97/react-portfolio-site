@@ -3,6 +3,7 @@ import Tile from "../UI/Tile";
 import "./Home.css";
 import HireMe from "./HireMe/HireMe";
 import NavBar from "./NavBar/NavBar";
+import NeonSign from "./NeonSign.JPG";
 
 import { NavLink } from "react-router-dom";
 
@@ -69,7 +70,7 @@ function Home(props) {
             <section className="left-project-tile">
               <img
                 className="project-icon"
-                src="https://minimalistneon.com/wp-content/uploads/2021/03/MINIMALISTNEON_NeonSignage_DollarSign_Thumbnail_2000x2000.jpg"
+                src={NeonSign}
                 alt="Dollar sign"
               ></img>
             </section>
