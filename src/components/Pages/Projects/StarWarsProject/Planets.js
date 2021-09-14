@@ -12,7 +12,6 @@ function Planets() {
         return response.json();
       })
       .then((data) => {
-        console.log(data.results);
         setPlanets(data.results);
       });
   }, []);
