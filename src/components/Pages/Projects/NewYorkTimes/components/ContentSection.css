@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+
+/* section,
+article,
+div {
+  border: solid 1px black;
+} */
+
+.h2-NYT {
+  font-size: 1.7rem;
+}
+
+.h3-NYT {
+  font-size: 1.4rem;
+}
+
+.h2-NYT,
+.h3-NYT {
+  font-family: "Domine", serif;
+  font-weight: bold;
+}
+
+.p-articles-NYT {
+  font-family: serif;
+  color: rgb(77, 77, 77);
+  font-size: 1.5rem;
+  margin: 1% 0 0 0;
+}
+
+.all-parent-NYT {
+  display: flex;
+  margin: 2% 0 0 0;
+}
+
+.left-section-NYT {
+  width: 70%;
+  display: flex;
+  border-right: 1px solid rgb(216, 216, 216);
+}
+
+.right-section-NYT {
+  width: 30%;
+}
+
+.right-top-article-NYT,
+.right-individual-articles-NYT {
+  margin: 0 3% 6% 3%;
+}
+
+.right-top-article-NYT {
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 0 0 4% 0;
+}
+
+/* .article-title-NYT {
+} */
+
+.article-image-NYT {
+  margin: 0 2%;
+}
+
+.image-caption-NYT {
+  color: rgb(124, 124, 124);
+}

@@ -209,7 +209,7 @@
 
 .individual-tile-parent-1 {
   display: flex;
-  flex-flow: row;
+  flex-flow: row-reverse;
   align-items: center;
   width: 100%;
   padding: 4%;
@@ -220,7 +220,8 @@
   width: 50%;
 }
 
-/* All circle icons for projects */
+/* All circle icons for projects -------*/
+
 .project-icon {
   width: 50%;
   transform: translateY(0px);

@@ -3,7 +3,7 @@ import Tile from "../UI/Tile";
 import "./Home.css";
 import HireMe from "./HireMe/HireMe";
 import NavBar from "./NavBar/NavBar";
-import NeonSign from "./NeonSign.JPG";
+import green_dollar_sign from "./green_dollar_sign.png";
 
 import { NavLink } from "react-router-dom";
 
@@ -39,25 +39,6 @@ function Home(props) {
       </section>
       <section className="tiles-parent">
         <Tile>
-          <NavLink to="./Planets" className="individual-tile-parent-2">
-            <section className="right-project-tile">
-              <h2>Star Wars Planets</h2>
-              <p>
-                Haven't watched Star Wars in a while? This React tool uses an
-                API to tell you about planets from the Star Wars galaxy.
-              </p>
-            </section>
-            <section className="left-project-tile">
-              <img
-                className="project-icon"
-                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f4c4b7d-a2ad-49a4-ad0d-2327cab52046/de6c8ft-163f01c9-61c9-4790-a531-6e509ada0b53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNGM0YjdkLWEyYWQtNDlhNC1hZDBkLTIzMjdjYWI1MjA0NlwvZGU2YzhmdC0xNjNmMDFjOS02MWM5LTQ3OTAtYTUzMS02ZTUwOWFkYTBiNTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jsbKumuLzOaLZRTXFQEUlyaZOcd8MsyRsFHo8hlnf_U"
-                alt="Planet from star wars"
-              ></img>
-            </section>
-          </NavLink>
-        </Tile>
-
-        <Tile>
           <NavLink to="./AppEstate" className="individual-tile-parent-1">
             <section className="right-project-tile">
               <h2>Estate Planning Calculator</h2>
@@ -70,7 +51,23 @@ function Home(props) {
             <section className="left-project-tile">
               <img
                 className="project-icon"
-                src={NeonSign}
+                src={green_dollar_sign}
+                alt="Dollar sign"
+              ></img>
+            </section>
+          </NavLink>
+        </Tile>
+
+        <Tile>
+          <NavLink to="./FrontPage" className="individual-tile-parent-1">
+            <section className="right-project-tile">
+              <h2>The New York Times</h2>
+              <p>A React New York Times look-alike.</p>
+            </section>
+            <section className="left-project-tile">
+              <img
+                className="project-icon"
+                src="https://i.pinimg.com/originals/97/7a/31/977a31b32c998dda750cea2db6a7ebf7.png"
                 alt="Dollar sign"
               ></img>
             </section>
@@ -91,6 +88,25 @@ function Home(props) {
                 className="project-icon"
                 src="https://ak1.ostkcdn.com/images/products/is/images/direct/3549361c34c23742b685efb779824b1013d5ab0c/Poster-Print-entitled-Idaho-topographic-map.jpg"
                 alt="United States"
+              ></img>
+            </section>
+          </NavLink>
+        </Tile>
+
+        <Tile>
+          <NavLink to="./Planets" className="individual-tile-parent-2">
+            <section className="right-project-tile">
+              <h2>Star Wars Planets</h2>
+              <p>
+                Haven't watched Star Wars in a while? This React tool uses an
+                API to tell you about planets from the Star Wars galaxy.
+              </p>
+            </section>
+            <section className="left-project-tile">
+              <img
+                className="project-icon"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3f4c4b7d-a2ad-49a4-ad0d-2327cab52046/de6c8ft-163f01c9-61c9-4790-a531-6e509ada0b53.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNmNGM0YjdkLWEyYWQtNDlhNC1hZDBkLTIzMjdjYWI1MjA0NlwvZGU2YzhmdC0xNjNmMDFjOS02MWM5LTQ3OTAtYTUzMS02ZTUwOWFkYTBiNTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jsbKumuLzOaLZRTXFQEUlyaZOcd8MsyRsFHo8hlnf_U"
+                alt="Planet from star wars"
               ></img>
             </section>
           </NavLink>

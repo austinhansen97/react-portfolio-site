@@ -9,6 +9,7 @@ import Contact from "../Pages/Contact";
 import Planets from "../Pages/Projects/StarWarsProject/Planets";
 import AppEstate from "../Pages/Projects/EstateTaxProject/AppEstate";
 import StatesCities from "../Pages/Projects/USstatesProject/StatesCities";
+import FrontPage from "../Pages/Projects/NewYorkTimes/FrontPage";
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
       <Route exact path="/Planets" component={Planets}></Route>
       <Route exact path="/AppEstate" component={AppEstate}></Route>
       <Route exact path="/StatesCities" component={StatesCities}></Route>
+      <Route exact path="/FrontPage" component={FrontPage}></Route>
     </Switch>
   );
 };

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+.background-NYT {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%; /*sets 1rem to 10px for font*/
+  margin: 0;
+  background-color: white;
+  height: 400vh;
+  color: black;
+}
+
+/* just for ConSect2 */
+#border-on-top-NYT {
+  border-top: solid black 1px;
+  padding: 2% 0 0 0;
+}
+
+.main-layout-NYT {
+  margin: 0 3%;
+}
+
+.top-section-NYT {
+  margin: 1.5% 0 0 0;
+}
+
+.top-section-NYT,
+.second-section-NYT {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.NYT-logo-parent {
+  width: 37%;
+}
+
+.banner-NYT p:hover,
+.news-sectors-banner-NYT p:hover {
+  font-weight: bolder;
+}
+
+.banner-NYT p,
+.news-sectors-banner-NYT p {
+  font-size: 1rem;
+}
+
+.banner-NYT,
+.news-sectors-banner-NYT {
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row;
+}
+
+.second-section-NYT {
+  border-top: solid 1px rgb(230, 230, 230);
+  border-bottom: double 5px black;
+  padding: 0.7% 0;
+}
+
+.news-sectors-banner-parent-NYT {
+  width: 90%;
+}
+
+.news-sectors-banner-NYT p {
+  text-transform: none;
+}
+
+.banner-NYT {
+  justify-content: space-around;
+}
+
+.news-sectors-banner-NYT {
+  justify-content: space-between;
+}
+
+.image-caption-NYT {
+  font-size: 1rem;
+  width: 100%;
+}
